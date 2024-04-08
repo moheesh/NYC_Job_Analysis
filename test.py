@@ -45,6 +45,8 @@ df['Posting Month'] = pd.Categorical(df['Posting Date'].dt.month_name(), categor
 # Initialize Dash app
 app = dash.Dash(__name__)
 
+server = app.server
+
 # Define the layout of the Dash app
 app.layout = html.Div([
     html.H1("Number of Jobs Posted by Month"),
