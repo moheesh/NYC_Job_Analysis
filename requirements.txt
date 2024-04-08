@@ -1,0 +1,13 @@
+pandas
+numpy
+seaborn
+matplotlib
+plotly
+dash
+dash_core_components
+dash_html_components
+dash_leaflet
+dash_table
+gunicorn
+io
+base64
